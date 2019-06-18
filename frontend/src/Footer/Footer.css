@@ -1,0 +1,24 @@
+
+/*FOOTER*/
+
+footer{ background: url("../assets/images/footer_1600x800.jpg") no-repeat; background-size: cover;  position: relative;  text-align: center;z-index: 1;  font-size: 1.3em; }
+
+.footer-bg-1{ background-image:  url("../assets/images/footer-1.png") ; }
+.footer-bg-1:after{ display: none; }
+
+footer,
+footer p{ color: #FFFFFF; }
+
+footer:after{ content: ''; position: absolute; top:0 ;left: 0;right: 0; bottom: 0; z-index: -1;  background: rgba(0,0,0,.7); }
+
+.underline-secondary{ color: #37B143;  text-decoration: underline;  }
+
+ul.icon li a{ padding: 10px;  }
+
+.color-light{ color: #cccccc; }
+
+.semi-black{ color: #666666; }
+
+.br-3{ border-radius: 3px;  }
+.br-4{ border-radius: 4px;  }
+.br-5{ border-radius: 5px;  }
